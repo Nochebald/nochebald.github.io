@@ -1,0 +1,316 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Vitaly Borisovs — computational bioimaging, volume electron microscopy, 3D reconstruction, deep learning segmentation, and quantitative image analysis.">
+  <title>Vitaly Borisovs | Computational Bioimaging</title>
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <a class="brand" href="#top">Vitaly Borisovs</a>
+      <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">☰</button>
+      <nav class="nav" aria-label="Primary navigation">
+        <a href="#about">About</a>
+        <a href="#videos">Videos</a>
+        <a href="#images">Images</a>
+        <a href="#software">Software</a>
+        <a href="#publications">Publications</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <div class="container hero-grid">
+        <div>
+          <p class="eyebrow">Computational Bioimaging · Volume EM · 3D Image Analysis</p>
+          <h1>Vitaly Borisovs, Ph.D.</h1>
+          <p class="hero-text">
+            I develop computational workflows for biological microscopy, with a current focus on
+            SBF-SEM, deep-learning segmentation, 3D reconstruction, and quantitative morphometry.
+          </p>
+          <div class="button-row">
+            <a class="button primary" href="#videos">View selected work</a>
+            <a class="button" href="https://github.com/Nochebald" target="_blank" rel="noopener">GitHub</a>
+            <a class="button" href="assets/cv/Vitaly_Borisovs_CV.pdf">CV</a>
+          </div>
+          <p class="small-note">Current position: Research Associate, University of Milan-Bicocca</p>
+        </div>
+        <div class="hero-card">
+          <img src="assets/images/hero-placeholder.png">
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="section">
+      <div class="container narrow">
+        <p class="section-kicker">About</p>
+        <h2>Biology, microscopy, and computational analysis</h2>
+        <p>
+          My work combines biological imaging with image processing and quantitative analysis.
+          I currently analyze large Serial Block-Face Scanning Electron Microscopy (SBF-SEM)
+          datasets of peripheral nerves and Dorsal Root Ganglia, including automated segmentation,
+          3D reconstruction, and morphometric analysis of neuronal and subcellular structures.
+        </p>
+        <p>
+          I work mainly with Python, deep learning, Arivis Pro, and Zeiss ZEN, and I also have
+          experience with fluorescence microscopy and a broader background in molecular and cellular biology.
+        </p>
+      </div>
+    </section>
+
+    <section id="videos" class="section alt">
+      <div class="container">
+        <p class="section-kicker">3D videos</p>
+        <h2>Volume EM reconstruction videos</h2>
+        <p class="section-intro">
+          Selected 3D reconstruction and segmentation results from SBF-SEM datasets.
+          Published and unpublished material is clearly identified below.
+        </p>
+
+        <div class="project-grid">
+          <article class="card featured">
+            <div class="media-frame">
+              <video controls preload="metadata" poster="assets/images/nerve-placeholder.svg">
+                <source src="assets/videos/nerve.mp4" type="video/mp4">
+                Your browser does not support HTML5 video.
+              </video>
+            </div>
+            <div class="card-body">
+              <span class="status published">Published work</span>
+              <h3>Peripheral nerve 3D reconstruction</h3>
+              <p>
+                SBF-SEM reconstruction and quantitative analysis of axon, myelin, mitochondria,
+                and endoplasmic reticulum.
+              </p>
+              <p class="tags">SBF-SEM · 3D reconstruction · Morphometry</p>
+              <div class="link-row">
+                <a href="https://doi.org/10.1016/j.micron.2025.103981" aria-label="Add publication DOI or journal URL">Publication</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="card featured">
+            <div class="media-frame">
+              <video controls preload="metadata" poster="assets/images/drg-placeholder.svg">
+                <source src="assets/videos/DRG cells-movie.mp4" type="video/mp4">
+                Your browser does not support HTML5 video.
+              </video>
+            </div>
+            <div class="card-body">
+              <span class="status unpublished">Unpublished preview</span>
+              <h3>Dorsal Root Ganglion reconstruction</h3>
+              <p>
+                3D reconstruction and automated segmentation of neuronal, glial, nuclear,
+                mitochondrial, and ER structures from SBF-SEM datasets.
+              </p>
+              <p class="tags">Volume EM · Deep learning · 3D segmentation</p>
+              <p class="rights-note">
+                Unpublished research. Preview shown for portfolio purposes only. Reuse requires permission.
+              </p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="images" class="section">
+      <div class="container">
+        <p class="section-kicker">Image gallery</p>
+        <h2>Reconstruction, segmentation, and image-processing examples</h2>
+        <p class="section-intro">
+          Static examples showing reconstruction outputs, segmentation performance,
+          and image-preprocessing workflows.
+        </p>
+
+        <div class="project-grid">
+          <article class="card">
+            <div class="image-frame">
+              <img src="assets/images/My+MT+ER.png" alt="3D reconstruction of peripheral nerve">
+            </div>
+            <div class="card-body">
+              <span class="status published">Published work</span>
+              <h3>Peripheral nerve reconstruction</h3>
+              <p>
+                Representative 3D render from SBF-SEM reconstruction of peripheral nerve
+                ultrastructure.
+              </p>
+              <p class="tags">SBF-SEM · 3D rendering · Ultrastructure</p>
+              <div class="link-row">
+                <a href="https://doi.org/10.1016/j.micron.2025.103981" aria-label="Add publication link">Publication</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="card">
+            <div class="image-frame">
+              <img src="assets/images/Ellisman DRG 3D.png" alt="3D reconstruction of Dorsal Root Ganglion">
+            </div>
+            <div class="card-body">
+              <span class="status unpublished">Unpublished preview</span>
+              <h3>Dorsal Root Ganglion reconstruction</h3>
+              <p>
+                Representative still image from a 3D reconstruction of neuronal and
+                satellite glial structures.
+              </p>
+              <p class="tags">Volume EM · DRG · 3D rendering</p>
+              <p class="rights-note">
+                Unpublished research. Preview shown for portfolio purposes only. Reuse requires permission.
+              </p>
+            </div>
+          </article>
+
+          <article class="card">
+            <div class="image-frame">
+              <img src="assets/images/Segment.png" alt="Deep-learning segmentation example">
+            </div>
+            <div class="card-body">
+              <span class="status published">Published work</span>
+              <h3>Stain-invariant ultrastructural segmentation</h3>
+              <p>
+                Generalized deep-learning workflow for automated segmentation of peripheral nerve
+                ultrastructure across different staining protocols.
+              </p>
+              <p class="tags">Deep learning · Segmentation · Electron microscopy</p>
+              <div class="link-row">
+                <a href="https://doi.org/10.3390/jimaging12060257" aria-label="Add publication link">Publication</a>
+                <a href="https://github.com/Nochebald/EM-raw-image-standardization" target="_blank" rel="noopener">Code / models</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="card">
+            <div class="image-frame">
+              <img src="assets/images/CLAHE.png" alt="EM image preprocessing example">
+            </div>
+            <div class="card-body">
+              <span class="status software">Software</span>
+              <h3>EM image preprocessing and standardization</h3>
+              <p>
+                Example of CLAHE-based preprocessing used to improve image consistency before
+                downstream segmentation and 3D analysis.
+              </p>
+              <p class="tags">Python · CLAHE · Image preprocessing</p>
+              <div class="link-row">
+                <a href="https://doi.org/10.3390/jimaging12060257" aria-label="Add publication link">Publication</a>
+                <a href="https://github.com/Nochebald/EM-raw-image-standardization" target="_blank" rel="noopener">GitHub repository</a>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="software" class="section alt">
+      <div class="container">
+        <p class="section-kicker">Software &amp; analysis tools</p>
+        <h2>Computational workflows for microscopy and quantitative analysis</h2>
+        <p class="section-intro">
+          Selected tools developed for EM image preprocessing, segmentation, 3D reconstruction,
+          and statistical analysis of quantitative biological datasets.
+        </p>
+
+        <div class="software-grid">
+          <article class="mini-card">
+            <h3>EM Raw Image Standardization</h3>
+            <p>
+              Python workflow for EM image preprocessing and standardization, including CLAHE-based
+              contrast enhancement and trained segmentation models for peripheral nerve and DRG data.
+            </p>
+            <p class="tags">Python · CLAHE · EM preprocessing · Deep learning</p>
+            <a href="https://github.com/Nochebald/EM-raw-image-standardization" target="_blank" rel="noopener">Open repository →</a>
+          </article>
+
+          <article class="mini-card">
+            <h3>Local EM Segmentation &amp; 3D Reconstruction Hub</h3>
+            <p>
+              Local application combining U-Net segmentation, SAM-assisted annotation, model training,
+              and interactive 3D reconstruction of segmented EM image stacks.
+            </p>
+            <p class="tags">PyTorch · SAM · Gradio · Plotly · 3D reconstruction</p>
+            <a href="https://github.com/Nochebald/local-em-segmentation-hub" target="_blank" rel="noopener">Open repository →</a>
+          </article>
+
+          <article class="mini-card">
+            <h3>Morphometric Statistics &amp; Data Analysis Pipeline</h3>
+            <p>
+              Interactive Streamlit workflow for biological morphometry, statistical comparisons,
+              correlations, bootstrap confidence intervals, effect sizes, multivariate analysis,
+              and allometric scaling.
+            </p>
+            <p class="tags">Streamlit · SciPy · Statsmodels · scikit-learn · Morphometry</p>
+            <a href="https://github.com/Nochebald/morphometric-statistics-pipeline" target="_blank" rel="noopener">Open repository →</a>
+          </article>
+        </div>
+
+        <div class="notice">
+          <strong>Workflow:</strong> EM preprocessing → segmentation and annotation → 3D reconstruction
+          → morphometric measurements → statistical analysis.
+        </div>
+
+        <div class="notice">
+          <strong>Software status:</strong> Individual repositories indicate whether tools are released
+          for reuse or are provided as work-in-progress research and portfolio examples.
+        </div>
+      </div>
+    </section>
+
+    <section id="publications" class="section">
+      <div class="container narrow">
+        <p class="section-kicker">Selected publications</p>
+        <h2>Recent work</h2>
+        <ol class="pub-list">
+          <li>
+            <strong>Borisovs V.</strong>, Cavaletti G.
+            <em>A Generalized Deep Learning Pipeline for Stain-Invariant Ultrastructural Segmentation in Peripheral Nerves.</em>
+            <span>Journal of Imaging, 2026.</span>
+            <a href="https://doi.org/10.3390/jimaging12060257">Link</a>
+          </li>
+          <li>
+            <strong>Borisovs V.</strong>, Bossi M., Cavaletti G.
+            <em>Morphometric analysis of axonal ultrastructure: Coordinated scaling of organelles and myelin.</em>
+            <span>Micron, 2026.</span>
+            <a href="https://doi.org/10.1016/j.micron.2025.103981">Link</a>
+          </li>
+          <li>
+            <strong>Borisovs V.</strong>, Bossi M., et al.
+            <em>New Approaches Based on Serial-Block Face Electron Microscopy to Investigate the Peripheral Nervous System.</em>
+            <span>JPNS, 2025.</span>
+            <a href="https://doi.org/10.1111/jns.70019">Link</a>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <section id="contact" class="section alt">
+      <div class="container narrow">
+        <p class="section-kicker">Contact</p>
+        <h2>Interested in microscopy, image analysis, or computational bioimaging?</h2>
+        <p>
+          I am interested in scientific and core-facility roles involving bioimage analysis,
+          microscopy data processing, 3D reconstruction, and development of computational workflows.
+        </p>
+        <div class="button-row">
+          <a class="button primary" href="mailto:vitalijs.borisovs1@unimib.it">Email</a>
+          <a class="button" href="https://github.com/Nochebald" target="_blank" rel="noopener">GitHub</a>
+          <a class="button" href="https://www.linkedin.com/in/vitaly-borisov" target="_blank" rel="noopener">LinkedIn</a>
+          <a class="button" href="https://orcid.org/0000-0002-5542-114X" target="_blank" rel="noopener">ORCID</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© <span id="year"></span> Vitaly Borisovs. Portfolio content not otherwise licensed remains all rights reserved.</p>
+      <p class="footer-small">Published material remains subject to the license and terms of the original publication.</p>
+    </div>
+  </footer>
+
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
